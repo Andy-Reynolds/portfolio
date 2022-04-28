@@ -6,7 +6,7 @@ import closeMenu from "../../assets/svgs/closeMenu.svg";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const windowIsDesktop = useWindowSize(1024);
+  const windowIsDesktop = useWindowSize(768);
   const navbarClass = showMenu ? "navbar navbar--active" : "navbar";
   const menuIcon = showMenu ? closeMenu : openMenu;
 

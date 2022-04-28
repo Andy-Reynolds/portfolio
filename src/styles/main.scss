@@ -1,2 +1,7 @@
 @use "./reset" as *;
 @use "./typography" as *;
+@use "./variables" as *;
+
+.App {
+  background-color: $colour-background;
+}
