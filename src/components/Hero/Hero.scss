@@ -26,6 +26,32 @@
         font-size: 1.3rem;
       }
     }
+
+    .button-container {
+      margin-top: 1rem;
+
+      &__link {
+        text-decoration: none;
+      }
+
+      .button {
+        margin-right: 2rem;
+        padding: 0.8rem;
+        border: none;
+        border-radius: 0.5rem;
+        background-color: $colour-primary;
+        color: white;
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 7rem;
+
+        &__image {
+          height: 1.5rem;
+          width: 1.5rem;
+        }
+      }
+    }
   }
 
   .image-container {

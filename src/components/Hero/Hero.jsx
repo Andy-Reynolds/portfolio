@@ -1,6 +1,8 @@
 import React from "react";
 import "./Hero.scss";
 import heroBackground from "../../assets/svgs/heroBackground.svg";
+import mail from "../../assets/svgs/mail.svg";
+import arrow from "../../assets/svgs/arrow.svg";
 
 const Hero = () => {
   return (
@@ -16,8 +18,22 @@ const Hero = () => {
           Junior Software Developer
         </h3>
         <div className="button-container">
-          <button>Let's Talk</button>
-          <button> Github</button>
+          <a
+            className="button-container__link"
+            href="mailto:andy.reynolds@hotmail.co.uk"
+          >
+            <button className="button">
+              Let's Talk <img className="button__image" src={mail} alt="" />
+            </button>
+          </a>
+          <a
+            className="button-container__link"
+            href="https://github.com/Andy-Reynolds"
+          >
+            <button className="button">
+              Github <img className="button__image" src={arrow} alt="" />
+            </button>
+          </a>
         </div>
       </div>
       <div className="image-container">
