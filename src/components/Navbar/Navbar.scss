@@ -1,0 +1,27 @@
+.navbar {
+  border: 2px solid black;
+  display: flex;
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: white;
+  justify-content: space-between;
+
+  &--active {
+    z-index: 10;
+    top: 0;
+    left: 0;
+  }
+
+  &__links-container {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100%;
+
+    .navbar__link {
+      text-decoration: none;
+    }
+  }
+}
