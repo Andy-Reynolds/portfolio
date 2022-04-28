@@ -1,5 +1,4 @@
 .navbar {
-  border: 2px solid black;
   display: flex;
   width: 100%;
   padding: 1rem 2rem;
@@ -12,16 +11,43 @@
     left: 0;
   }
 
+  &__menu-button {
+    background-color: transparent;
+    border: none;
+  }
+
   &__links-container {
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
     height: 100%;
+    padding: 1rem 2rem;
+    text-align: right;
+
+    &-list {
+      list-style: none;
+    }
+
+    &-list-item {
+      margin-bottom: 1rem;
+    }
 
     .navbar__link {
       text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar__links-container-list {
+    display: flex;
+    flex-direction: row;
+    color: red;
+
+    &-item {
+      margin-left: 4rem;
     }
   }
 }

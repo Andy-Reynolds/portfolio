@@ -22,23 +22,23 @@ const Navbar = () => {
 
   const navMenu = (
     <div className="navbar__links-container">
-      <ul>
-        <li>
+      <ul className="navbar__links-container-list">
+        <li className="navbar__links-container-list-item">
           <a className="navbar__link" href="/">
             About
           </a>
         </li>
-        <li>
+        <li className="navbar__links-container-list-item">
           <a className="navbar__link" href="/">
-            Project
+            Projects
           </a>
         </li>
-        <li>
+        <li className="navbar__links-container-list-item">
           <a className="navbar__link" href="/">
             Tech Stack
           </a>
         </li>
-        <li>
+        <li className="navbar__links-container-list-item">
           <a className="navbar__link" href="/">
             Contact
           </a>
