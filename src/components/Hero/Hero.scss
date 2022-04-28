@@ -1,0 +1,93 @@
+@use "../../styles/_variables.scss" as *;
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+  margin-top: 8rem;
+
+  .welcome-container {
+    margin-bottom: 5rem;
+
+    &__segment {
+      padding: 0.2rem;
+
+      &--one {
+        font-size: 1rem;
+        color: $colour-primary;
+      }
+
+      &--two {
+        font-size: 4rem;
+      }
+
+      &--three {
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+  .image-container {
+    display: flex;
+    position: relative;
+
+    &__circle {
+      border-radius: 50%;
+      border: 1px solid $colour-font-general;
+      height: 12rem;
+      width: 12rem;
+    }
+
+    &__svg {
+      position: absolute;
+      top: -8rem;
+      left: -6.5rem;
+      height: 400%;
+      width: 400%;
+    }
+  }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: $desktop-breakpoint) {
+  .hero {
+    .welcome-container {
+      &__segment {
+        &--one {
+          font-size: 1.5rem;
+          color: $colour-primary;
+        }
+
+        &--two {
+          font-size: 6rem;
+        }
+
+        &--three {
+          font-size: 1.95rem;
+        }
+      }
+    }
+
+    .image-container {
+      &__circle {
+        height: 16rem;
+        width: 16em;
+      }
+
+      &__svg {
+        top: -11rem;
+        left: -8.5rem;
+        height: 400%;
+        width: 400%;
+      }
+    }
+  }
+}
