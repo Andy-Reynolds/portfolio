@@ -1,6 +1,6 @@
 // import React, { useState } from "react";
 import "./Projects.scss";
-// import projects from "../../assets/projects/projects";
+import projects from "../../assets/projects/projects";
 
 const Projects = () => {
   // const [counter, setCounter] = useState(0);
@@ -21,6 +21,10 @@ const Projects = () => {
   //   }
   // };
 
+  const stackCards = projects[0].stack.map((tool) => <div>{tool}</div>);
+
+  console.log(stackCards);
+
   return (
     <div className="projects">
       <h3 className="projects__heading">( Projects )</h3>
@@ -30,7 +34,7 @@ const Projects = () => {
           <div className="projects__info">
             <h4 className="projects__title">Project Title</h4>
             <p className="projects__description">Project Description</p>
-            <div className="projects__stack">Stack</div>
+            <div className="projects__stack">Stack {stackCards}</div>
           </div>
         </div>
         <div className="projects__tile--lower">
