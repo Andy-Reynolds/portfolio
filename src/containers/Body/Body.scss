@@ -5,8 +5,6 @@
   background-color: white;
   width: 80%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   margin: auto;
   min-height: 80vh;
@@ -14,4 +12,5 @@
   box-shadow: 0px 1px 1px 0px $colour-font-general;
   z-index: 9;
   position: relative;
+  padding: 4rem;
 }

@@ -1,0 +1,8 @@
+@use "../../styles/_variables.scss" as *;
+
+.about {
+  &__heading {
+    color: $colour-primary;
+    margin-bottom: 2rem;
+  }
+}
