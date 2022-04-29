@@ -71,3 +71,45 @@
     border-radius: 1rem;
   }
 }
+
+@media screen and (min-width: $desktop-breakpoint) {
+  .projects {
+    &__tile {
+      &--upper {
+        display: flex;
+        flex-direction: row;
+        height: 70vh;
+      }
+
+      &--lower {
+        height: 10vh;
+        display: flex;
+      }
+    }
+
+    &__image {
+      height: auto;
+      width: 50%;
+      margin: 1rem;
+      margin-right: 0.5rem;
+    }
+
+    &__info {
+      height: auto;
+      width: 50%;
+      margin: 1rem;
+      margin-left: 0.5rem;
+    }
+
+    &__buttons-container {
+      flex-direction: row;
+      align-items: center;
+      width: 25%;
+    }
+
+    &__button {
+      width: 7rem;
+      border-radius: 0.5rem;
+    }
+  }
+}
