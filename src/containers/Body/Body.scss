@@ -3,14 +3,22 @@
 .body {
   // border: 1px solid $colour-font-general;
   background-color: white;
-  width: 80%;
+  width: 95%;
   display: flex;
   text-align: center;
+  flex-direction: column;
   margin: auto;
   min-height: 80vh;
   border-radius: 10px;
   box-shadow: 0px 1px 1px 0px $colour-font-general;
   z-index: 9;
   position: relative;
-  padding: 4rem;
+  padding: 1rem;
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .body {
+    width: 85%;
+    padding: 4rem;
+  }
 }
