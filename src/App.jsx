@@ -1,4 +1,5 @@
 // import Hero from "./components/Hero/Hero";
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 // import Body from "./containers/Body/Body";
 import Main from "./containers/Main/Main";
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Main />
+      <Footer />
     </div>
   );
 }
