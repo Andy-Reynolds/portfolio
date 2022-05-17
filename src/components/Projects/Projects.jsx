@@ -28,14 +28,18 @@ const Projects = () => {
     <div className="projects__tool">{tool}</div>
   ));
 
-  console.log(stackCards);
-
   return (
     <div className="projects">
       <h3 className="projects__heading">( Projects )</h3>
       <div className="projects__tile">
         <div className="projects__tile--upper">
-          <div className="projects__image">Image</div>
+          <div className="projects__image-container">
+            <img
+              className="projects__image"
+              src={projects[counter].image}
+              alt={projects[counter].title}
+            />
+          </div>
           <div className="projects__info">
             <h4 className="projects__title">{projects[counter].title}</h4>
             <p className="projects__description">
@@ -52,13 +56,23 @@ const Projects = () => {
             <img className="arrow-image" src={chevronLeft} alt="left" />
           </button>
           <div className="projects__buttons-container">
-            <button className="projects__button project__button--preview">
+            <a
+              href={projects[counter].preview}
+              target="_blank"
+              rel="noreferrer"
+              className="projects__button project__button--preview"
+            >
               <img className="preview-image" src={preview} alt="preview" />{" "}
               &ensp; Preview
-            </button>
-            <button className="projects__button project__button--code">
+            </a>
+            <a
+              href={projects[counter].github}
+              target="_blank"
+              rel="noreferrer"
+              className="projects__button project__button--code"
+            >
               &lt;&nbsp;&gt; &nbsp; Code
-            </button>
+            </a>
           </div>
           <button
             className="projects__arrow projects__arrow--right"

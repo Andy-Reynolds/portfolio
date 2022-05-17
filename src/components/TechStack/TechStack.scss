@@ -1,0 +1,71 @@
+@use "../../styles/variables" as *;
+
+.tech-stack {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__heading {
+    color: $colour-primary;
+    margin-bottom: 2rem;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .tech-stack__icon-container {
+      min-height: 10rem;
+      padding: 0.8rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .tech-stack__icon {
+        height: 4rem;
+        opacity: 0.9;
+      }
+
+      .tech-stack__icon-label {
+        color: $colour-font-general;
+        font-size: 1rem;
+        display: none;
+        max-width: 3.5rem;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .tech-stack__icon:hover {
+        opacity: 1;
+      }
+
+      .tech-stack__icon:hover + .tech-stack__icon-label {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $desktop-breakpoint) {
+  .tech-stack__icons {
+    max-width: 90%;
+
+    .tech-stack__icon-container {
+      padding: 1.8rem;
+      height: 12rem;
+
+      .tech-stack__icon {
+        height: 5rem;
+      }
+
+      .tech-stack__icon-label {
+        font-size: 1.2rem;
+        max-width: 6rem;
+      }
+    }
+  }
+}

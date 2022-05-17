@@ -8,8 +8,16 @@ const Footer = () => {
     <div className="footer">
       <h3 className="footer__heading">Contact</h3>
       <div className="footer__icon-container">
-        <img className="footer__icon" src={github} alt="github" />
-        <img className="footer__icon" src={mailGrey} alt="github" />
+        <a
+          href="https://github.com/Andy-Reynolds"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="footer__icon" src={github} alt="github" />
+        </a>
+        <a href="mailto: andy.reynolds@hotmail.co.uk">
+          <img className="footer__icon" src={mailGrey} alt="email" />
+        </a>
       </div>
     </div>
   );
