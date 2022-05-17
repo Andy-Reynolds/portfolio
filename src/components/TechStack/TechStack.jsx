@@ -83,7 +83,7 @@ const TechStack = () => {
   ));
 
   return (
-    <div className="tech-stack">
+    <div className="tech-stack" id="tech-stack">
       <h3 className="tech-stack__heading">( Tech Stack )</h3>
       <div className="tech-stack__icons">{icons}</div>
     </div>

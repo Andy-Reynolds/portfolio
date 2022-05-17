@@ -5,7 +5,7 @@ import mailGrey from "../../assets/svgs/mailGrey.svg";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="footer">
       <h3 className="footer__heading">Contact</h3>
       <div className="footer__icon-container">
         <a

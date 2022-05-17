@@ -24,22 +24,22 @@ const Navbar = () => {
     <div className="navbar__links-container">
       <ul className="navbar__links-container-list">
         <li className="navbar__links-container-list-item">
-          <a className="navbar__link" href="/">
+          <a className="navbar__link" href="#about">
             About
           </a>
         </li>
         <li className="navbar__links-container-list-item">
-          <a className="navbar__link" href="/">
+          <a className="navbar__link" href="#projects">
             Projects
           </a>
         </li>
         <li className="navbar__links-container-list-item">
-          <a className="navbar__link" href="/">
+          <a className="navbar__link" href="#tech-stack">
             Tech Stack
           </a>
         </li>
         <li className="navbar__links-container-list-item">
-          <a className="navbar__link" href="/">
+          <a className="navbar__link" href="#footer">
             Contact
           </a>
         </li>

@@ -15,6 +15,7 @@
 
   &__logo {
     font-family: $font-cursive;
+    font-size: 2rem;
   }
 
   &__menu-button {
@@ -41,7 +42,8 @@
 
     .navbar__link {
       text-decoration: none;
-      color: black;
+      color: $colour-font-general;
+      font-weight: bold;
 
       &:hover {
         color: $colour-primary;
@@ -51,6 +53,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .navbar__logo {
+    font-size: 3rem;
+  }
+
   .navbar__links-container-list {
     display: flex;
     flex-direction: row;
@@ -58,5 +64,9 @@
     &-item {
       margin-left: 4rem;
     }
+  }
+
+  .navbar__link {
+    font-size: 1.4rem;
   }
 }
