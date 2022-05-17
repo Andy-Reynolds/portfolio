@@ -3,6 +3,7 @@ import "./Hero.scss";
 import heroBackground from "../../assets/svgs/heroBackground.svg";
 import mail from "../../assets/svgs/mail.svg";
 import arrow from "../../assets/svgs/arrow.svg";
+import profile from "../../assets/images/profile.png";
 
 const Hero = () => {
   return (
@@ -39,7 +40,9 @@ const Hero = () => {
         </div>
       </div>
       <div className="image-container">
-        <div className="image-container__circle"></div>
+        <div className="image-container__circle">
+          <img className="image-container__profile" src={profile} alt="Andy" />
+        </div>
         <img className="image-container__svg" src={heroBackground} alt="" />
       </div>
     </div>

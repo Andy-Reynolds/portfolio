@@ -1,8 +1,8 @@
 @use "../../styles/variables" as *;
 
 .tech-stack {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,6 +10,7 @@
   &__heading {
     color: $colour-primary;
     margin-bottom: 2rem;
+    font-size: 1.8rem;
   }
 
   &__icons {
@@ -50,7 +51,17 @@
   }
 }
 
+@media screen and (min-width: $tablet-breakpoint) {
+  .tech-stack__heading {
+    font-size: 2rem;
+  }
+}
+
 @media screen and (min-width: $desktop-breakpoint) {
+  .tech-stack__heading {
+    font-size: 2rem;
+  }
+
   .tech-stack__icons {
     max-width: 90%;
 

@@ -61,9 +61,9 @@
 
     &__circle {
       border-radius: 50%;
-      border: 1px solid $colour-font-general;
       height: 12rem;
       width: 12rem;
+      display: flex;
     }
 
     &__svg {
