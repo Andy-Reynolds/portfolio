@@ -30,7 +30,7 @@ const Projects = () => {
 
   return (
     <div className="projects" id="projects">
-      <h3 className="projects__heading">( Projects )</h3>
+      <h3 className="projects__heading">( &nbsp;Projects&nbsp; )</h3>
       <div className="projects__tile">
         <div className="projects__tile--upper">
           <div className="projects__image-container">

@@ -23,3 +23,10 @@
     padding: 4rem;
   }
 }
+
+@media screen and (min-width: $large-desktop-breakpoint) {
+  .body {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}

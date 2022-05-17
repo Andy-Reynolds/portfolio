@@ -1,11 +1,13 @@
 @use "../../styles/_variables.scss" as *;
 
 .projects {
-  margin-top: 4rem;
+  margin-top: 5rem;
 
   &__heading {
     color: $colour-primary;
     margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 1.8rem;
   }
 
   &__tile {
@@ -45,7 +47,7 @@
   }
 
   &__info {
-    height: 50%;
+    min-height: 50%;
     margin: 0.5rem;
     margin-top: 0.25rem;
     background-color: $colour-background;
@@ -60,6 +62,8 @@
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
   }
 
   &__tool {
@@ -116,6 +120,15 @@
 
     .preview-image {
       height: 1.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .projects {
+    &__heading {
+      font-size: 2rem;
+      margin-top: 0rem;
     }
   }
 }

@@ -14,7 +14,7 @@
       padding: 0.2rem;
 
       &--one {
-        font-size: 1rem;
+        font-size: 1.5rem;
         color: $colour-primary;
       }
 
@@ -45,6 +45,7 @@
         justify-content: space-around;
         align-items: center;
         width: 7rem;
+        font-weight: bold;
 
         &__image {
           height: 1.5rem;
@@ -88,7 +89,7 @@
     .welcome-container {
       &__segment {
         &--one {
-          font-size: 1.5rem;
+          font-size: 2rem;
           color: $colour-primary;
         }
 

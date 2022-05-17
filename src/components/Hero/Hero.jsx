@@ -23,7 +23,8 @@ const Hero = () => {
             href="mailto:andy.reynolds@hotmail.co.uk"
           >
             <button className="button">
-              Let's Talk <img className="button__image" src={mail} alt="" />
+              Let's Talk&nbsp;
+              <img className="button__image" src={mail} alt="" />
             </button>
           </a>
           <a
@@ -31,7 +32,8 @@ const Hero = () => {
             href="https://github.com/Andy-Reynolds"
           >
             <button className="button">
-              Github <img className="button__image" src={arrow} alt="" />
+              Github
+              <img className="button__image" src={arrow} alt="" />
             </button>
           </a>
         </div>

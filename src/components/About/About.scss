@@ -4,9 +4,26 @@
   &__heading {
     color: $colour-primary;
     margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.8rem;
   }
 
   &__paragraph {
-    text-align: left;
+    line-height: 1.4rem;
+  }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .about {
+    &__heading {
+      font-size: 2rem;
+      margin-top: 0rem;
+    }
+
+    &__paragraph {
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+    }
   }
 }
