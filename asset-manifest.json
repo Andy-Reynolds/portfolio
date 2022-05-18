@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c298a22d.css",
-    "main.js": "/portfolio/static/js/main.7f10d8e8.js",
+    "main.css": "/portfolio/static/css/main.eaf3bbad.css",
+    "main.js": "/portfolio/static/js/main.4af69ff7.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile.png": "/portfolio/static/media/profile.2d1d857f3cf0083c9f2d.png",
     "static/media/positive-pup.png": "/portfolio/static/media/positive-pup.c5b05b58938a5d388253.png",
@@ -9,6 +9,7 @@
     "static/media/punk-api.png": "/portfolio/static/media/punk-api.0674eb75fb906e67425b.png",
     "static/media/connect-four.png": "/portfolio/static/media/connect-four.6d535877eef7677d2091.png",
     "static/media/ticket-tracker.png": "/portfolio/static/media/ticket-tracker.c33cf7caa5f267382e18.png",
+    "static/media/logbook.png": "/portfolio/static/media/logbook.d833427f2c17e1b00ad0.png",
     "static/media/morse-code-translator.png": "/portfolio/static/media/morse-code-translator.bbf08ad1577ce5997fc5.png",
     "static/media/postman.svg": "/portfolio/static/media/postman.14e67ebb55157f6cea81f8d6e8036b94.svg",
     "static/media/mysql.svg": "/portfolio/static/media/mysql.b417730b51d10c94191abc0d7c6b0683.svg",
@@ -35,12 +36,12 @@
     "static/media/chevronRight.svg": "/portfolio/static/media/chevronRight.0b2ecf0fcca9d7413916558b61644058.svg",
     "static/media/openMenu.svg": "/portfolio/static/media/openMenu.8afaf4208b28e489d9662ea759d9d508.svg",
     "static/media/npm.svg": "/portfolio/static/media/npm.4c173b420d4b0416d5292460b6637132.svg",
-    "main.c298a22d.css.map": "/portfolio/static/css/main.c298a22d.css.map",
-    "main.7f10d8e8.js.map": "/portfolio/static/js/main.7f10d8e8.js.map",
+    "main.eaf3bbad.css.map": "/portfolio/static/css/main.eaf3bbad.css.map",
+    "main.4af69ff7.js.map": "/portfolio/static/js/main.4af69ff7.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c298a22d.css",
-    "static/js/main.7f10d8e8.js"
+    "static/css/main.eaf3bbad.css",
+    "static/js/main.4af69ff7.js"
   ]
 }
