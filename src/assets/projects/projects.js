@@ -4,14 +4,15 @@ import morseCode from "../images/morse-code-translator.png"
 import positivePup from "../images/positive-pup.png"
 import punkApi from "../images/punk-api.png"
 import ticketTracker from "../images/ticket-tracker.png"
+import logbook from "../images/logbook.png"
 
 const projects = [
   {
     id: 1,
     title: "Full Stack Project",
-    description: "A full stack CRUD app allowing users to log and keep track of their skydives. The front end was built using React and hosted on GitHub pages whilst the backend is built with Java spring and the API and database is hosted with GCP.",
+    description: "An in progress full stack CRUD app allowing users to log and keep track of their skydives. The front end was built using React and hosted on GitHub pages whilst the backend is built with Java spring and the API and database is hosted with GCP.",
     stack: ["React", "SCSS", "Java", "GCP", "Spring", "MySQL"],
-    image: "",
+    image: logbook,
     github: "https://github.com/nology-tech/positive-pup",
     preview: "https://nology-tech.github.io/positive-pup/"
   },

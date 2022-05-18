@@ -18,24 +18,20 @@ const Hero = () => {
         <h3 className="welcome-container__segment welcome-container__segment--three">
           Junior Software Developer
         </h3>
-        <div className="button-container">
+        <div className="link-container">
           <a
-            className="button-container__link"
+            className="link-container__link"
             href="mailto:andy.reynolds@hotmail.co.uk"
           >
-            <button className="button">
-              Let's Talk&nbsp;
-              <img className="button__image" src={mail} alt="" />
-            </button>
+            Let's Talk&nbsp;
+            <img className="link__image" src={mail} alt="" />
           </a>
           <a
-            className="button-container__link"
+            className="link-container__link"
             href="https://github.com/Andy-Reynolds"
           >
-            <button className="button">
-              Github
-              <img className="button__image" src={arrow} alt="" />
-            </button>
+            Github
+            <img className="link__image" src={arrow} alt="" />
           </a>
         </div>
       </div>
