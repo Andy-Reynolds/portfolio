@@ -9,16 +9,6 @@ import logbook from "../images/logbook.png";
 const projects = [
   {
     id: 1,
-    title: "Full Stack Project",
-    description:
-      "An in progress full stack CRUD app allowing users to log and keep track of their skydives. The front end was built using React and hosted on GitHub pages whilst the backend is built with Java spring and the API and database is hosted with GCP.",
-    stack: ["React", "SCSS", "Java", "GCP", "Spring", "MySQL"],
-    image: logbook,
-    github: "https://github.com/Andy-Reynolds/full-stack-project",
-    preview: "https://andy-reynolds.github.io/full-stack-project/",
-  },
-  {
-    id: 2,
     title: "Client Project",
     description:
       "A four week client project delivered as part of an eight person agile team. Throughout this project I developed experience including agile practices, pair programming, CI/CD pipelines, GitHub actions and writing user stories.",
@@ -28,7 +18,7 @@ const projects = [
     preview: "https://nology-tech.github.io/positive-pup/",
   },
   {
-    id: 3,
+    id: 2,
     title: "Punk API",
     description:
       "A React project built to enable users to browse, search and filter Brewdog beers. This data fectched from punkapi.com and the project developed my understanding of useState and useEffect.",
@@ -38,7 +28,7 @@ const projects = [
     preview: "https://andy-reynolds.github.io/punk-api/",
   },
   {
-    id: 4,
+    id: 3,
     title: "Ticket Tracker",
     description:
       "An app built to track the number of completed tickets per employee in an agile team. This was my first project built using React and particularly tested my understanding of props and useState",
@@ -48,7 +38,7 @@ const projects = [
     preview: "https://andy-reynolds.github.io/ticket-tracker/",
   },
   {
-    id: 5,
+    id: 4,
     title: "Morse Code Translator",
     description:
       "A technial skills challenge built on the nology course to test understanding of objects and DOM manipulation. This challenge was later developed with Jest unit testing.",
@@ -58,7 +48,7 @@ const projects = [
     preview: "https://andy-reynolds.github.io/morse-code-translator/",
   },
   {
-    id: 6,
+    id: 5,
     title: "Connect Four",
     description:
       "A connect four game created using HTML, SASS and Javascript. Further developing skills in DOM manipulation, Javascript functions and UI/UX design.",
@@ -68,7 +58,7 @@ const projects = [
     preview: "https://andy-reynolds.github.io/connect-four-project/",
   },
   {
-    id: 7,
+    id: 6,
     title: "Calculator",
     description:
       "A calculator built using HTML, SASS and Javascript. This project particularly developed skills in DOM manipulation and Javascript functions and was my first introduction to unit testing and E2E testing using Cypress.",
@@ -76,6 +66,16 @@ const projects = [
     image: calculator,
     github: "https://github.com/Andy-Reynolds/calculator-challenge",
     preview: "https://github.com/Andy-Reynolds/calculator-challenge",
+  },
+  {
+    id: 7,
+    title: "Full Stack Project",
+    description:
+      "An in progress full stack CRUD app allowing users to log and keep track of their skydives. The front end was built using React and hosted on GitHub pages whilst the backend is built with Java spring and the API and database is hosted with GCP.",
+    stack: ["React", "SCSS", "Java", "GCP", "Spring", "MySQL"],
+    image: logbook,
+    github: "https://github.com/Andy-Reynolds/full-stack-project",
+    preview: "https://andy-reynolds.github.io/full-stack-project/",
   },
 ];
 

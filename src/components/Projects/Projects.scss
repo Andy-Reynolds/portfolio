@@ -18,7 +18,7 @@
       margin-bottom: 0.5rem;
       border-radius: 0.5rem 0.5rem 0rem 0rem;
       background-color: $colour-primary;
-      min-height: 78vh;
+      height: 78vh;
     }
 
     &--lower {
@@ -36,7 +36,7 @@
     margin: 0.5rem;
     margin-bottom: 0.25rem;
     background-color: $colour-background;
-    min-height: 50%;
+    height: 50%;
 
     .projects__image {
       object-fit: scale-down;
@@ -46,7 +46,7 @@
   }
 
   &__info {
-    min-height: 50%;
+    height: 50%;
     margin: 0.5rem;
     margin-top: 0.25rem;
     background-color: $colour-background;
@@ -64,6 +64,7 @@
   &__description {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    overflow-y: scroll;
   }
 
   &__stack-container {
